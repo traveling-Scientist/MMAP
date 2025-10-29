@@ -1,0 +1,716 @@
+[
+  {
+    "id": "test_001",
+    "input": {
+      "text": "I would like a refund for my order",
+      "order_id": "ORD001",
+      "amount": 50.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective_product"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer1",
+      "standard"
+    ]
+  },
+  {
+    "id": "test_002",
+    "input": {
+      "text": "Can I get my money back?",
+      "order_id": "ORD002",
+      "amount": 100.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "not_as_described"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer1",
+      "standard"
+    ]
+  },
+  {
+    "id": "test_003",
+    "input": {
+      "text": "I want to return this item",
+      "order_id": "ORD003",
+      "amount": 75.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "wrong_item"
+    },
+    "ground_truth": {
+      "intent": "return_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer1",
+      "intent_variation"
+    ]
+  },
+  {
+    "id": "test_004",
+    "input": {
+      "text": "Please cancel my order",
+      "order_id": "ORD004",
+      "amount": 200.0,
+      "purchase_date": "2025-10-27T12:42:40.836256Z",
+      "reason": "changed_mind"
+    },
+    "ground_truth": {
+      "intent": "cancellation_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer1",
+      "intent_variation"
+    ]
+  },
+  {
+    "id": "test_005",
+    "input": {
+      "text": "Refund please",
+      "order_id": "ORD005",
+      "amount": 150.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": "ORD005",
+        "amount": 150.0
+      }
+    },
+    "tags": [
+      "layer1",
+      "entity_extraction"
+    ]
+  },
+  {
+    "id": "test_006",
+    "input": {
+      "text": "I need a refund",
+      "order_id": "ORD010",
+      "amount": 300.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "not_satisfied"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer2",
+      "decision_accuracy"
+    ]
+  },
+  {
+    "id": "test_007",
+    "input": {
+      "text": "Refund my purchase",
+      "order_id": "ORD011",
+      "amount": 450.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "poor_quality"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer2",
+      "decision_accuracy"
+    ]
+  },
+  {
+    "id": "test_008",
+    "input": {
+      "text": "I want a refund",
+      "order_id": "ORD012",
+      "amount": 100.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection"
+    ]
+  },
+  {
+    "id": "test_009",
+    "input": {
+      "text": "Refund request 1",
+      "order_id": "ORD0200",
+      "amount": 50.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "latency_test"
+    ]
+  },
+  {
+    "id": "test_010",
+    "input": {
+      "text": "Refund request 2",
+      "order_id": "ORD0201",
+      "amount": 60.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "latency_test"
+    ]
+  },
+  {
+    "id": "test_011",
+    "input": {
+      "text": "Refund request 3",
+      "order_id": "ORD0202",
+      "amount": 70.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "latency_test"
+    ]
+  },
+  {
+    "id": "test_012",
+    "input": {
+      "text": "Refund request 4",
+      "order_id": "ORD0203",
+      "amount": 80.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "latency_test"
+    ]
+  },
+  {
+    "id": "test_013",
+    "input": {
+      "text": "Refund request 5",
+      "order_id": "ORD0204",
+      "amount": 90.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "latency_test"
+    ]
+  },
+  {
+    "id": "test_014",
+    "input": {
+      "text": "Process my refund",
+      "order_id": "ORD025",
+      "amount": 200.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer3",
+      "transaction_success"
+    ]
+  },
+  {
+    "id": "test_015",
+    "input": {
+      "text": "I need a refund",
+      "order_id": "ORD030",
+      "amount": 500.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer4",
+      "policy_compliance",
+      "at_limit"
+    ]
+  },
+  {
+    "id": "test_016",
+    "input": {
+      "text": "Refund my order",
+      "order_id": "ORD031",
+      "amount": 600.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied"
+    },
+    "tags": [
+      "layer4",
+      "policy_compliance",
+      "exceeds_limit"
+    ]
+  },
+  {
+    "id": "test_017",
+    "input": {
+      "text": "I want my money back",
+      "order_id": "ORD032",
+      "amount": 100.0,
+      "purchase_date": "2025-09-13T12:42:40.836256Z",
+      "reason": "not_satisfied"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied"
+    },
+    "tags": [
+      "layer4",
+      "policy_compliance",
+      "expired"
+    ]
+  },
+  {
+    "id": "test_018",
+    "input": {
+      "text": "Refund please",
+      "order_id": null,
+      "amount": 100.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied"
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "missing_data"
+    ]
+  },
+  {
+    "id": "test_019",
+    "input": {
+      "text": "Process refund",
+      "order_id": "ORD034",
+      "amount": 0.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "mistake"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied"
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "zero_amount"
+    ]
+  },
+  {
+    "id": "test_020",
+    "input": {
+      "text": "Refund my purchase",
+      "order_id": "ORD035",
+      "amount": -50.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "error"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied"
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "negative_amount"
+    ]
+  },
+  {
+    "id": "test_021",
+    "input": {
+      "text": "I need a refund for this expensive item",
+      "order_id": "ORD036",
+      "amount": 1500.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "escalated"
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "escalation"
+    ]
+  },
+  {
+    "id": "test_022",
+    "input": {
+      "text": "Refund request",
+      "order_id": "ORD037",
+      "amount": 100.0,
+      "purchase_date": "2025-09-29T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition"
+    ]
+  },
+  {
+    "id": "test_023",
+    "input": {
+      "text": "I want a refund",
+      "order_id": "ORD040",
+      "amount": 200.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "not_satisfied",
+      "demographics": {
+        "age_group": "25-35",
+        "region": "north"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "demographics": {
+        "age_group": "25-35",
+        "region": "north"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "group_a"
+    ]
+  },
+  {
+    "id": "test_024",
+    "input": {
+      "text": "Refund please",
+      "order_id": "ORD041",
+      "amount": 250.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective",
+      "demographics": {
+        "age_group": "25-35",
+        "region": "north"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "demographics": {
+        "age_group": "25-35",
+        "region": "north"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "group_a"
+    ]
+  },
+  {
+    "id": "test_025",
+    "input": {
+      "text": "I want a refund",
+      "order_id": "ORD042",
+      "amount": 200.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "not_satisfied",
+      "demographics": {
+        "age_group": "45-55",
+        "region": "south"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "demographics": {
+        "age_group": "45-55",
+        "region": "south"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "group_b"
+    ]
+  },
+  {
+    "id": "test_026",
+    "input": {
+      "text": "Refund please",
+      "order_id": "ORD043",
+      "amount": 250.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective",
+      "demographics": {
+        "age_group": "45-55",
+        "region": "south"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "demographics": {
+        "age_group": "45-55",
+        "region": "south"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "group_b"
+    ]
+  },
+  {
+    "id": "test_027",
+    "input": {
+      "text": "Refund order 1",
+      "order_id": "ORD0500",
+      "amount": 100.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer5",
+      "audit_trail"
+    ]
+  },
+  {
+    "id": "test_028",
+    "input": {
+      "text": "Refund order 2",
+      "order_id": "ORD0501",
+      "amount": 120.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer5",
+      "audit_trail"
+    ]
+  },
+  {
+    "id": "test_029",
+    "input": {
+      "text": "Refund order 3",
+      "order_id": "ORD0502",
+      "amount": 140.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer5",
+      "audit_trail"
+    ]
+  },
+  {
+    "id": "test_030",
+    "input": {
+      "text": "Refund order 4",
+      "order_id": "ORD0503",
+      "amount": 160.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer5",
+      "audit_trail"
+    ]
+  },
+  {
+    "id": "test_031",
+    "input": {
+      "text": "Refund order 5",
+      "order_id": "ORD0504",
+      "amount": 180.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "layer5",
+      "audit_trail"
+    ]
+  },
+  {
+    "id": "test_032",
+    "input": {
+      "text": "I need a refund",
+      "order_id": "ORD060",
+      "amount": 499.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard",
+      "high_value"
+    ]
+  },
+  {
+    "id": "test_033",
+    "input": {
+      "text": "Refund - product damaged and wrong color",
+      "order_id": "ORD061",
+      "amount": 150.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "damaged_and_wrong"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard"
+    ]
+  },
+  {
+    "id": "test_034",
+    "input": {
+      "text": "URGENT: Need immediate refund",
+      "order_id": "ORD062",
+      "amount": 300.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "urgent_need"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard",
+      "urgent"
+    ]
+  },
+  {
+    "id": "test_035",
+    "input": {
+      "text": "Hello, I would kindly request a refund for my order. Thank you.",
+      "order_id": "ORD063",
+      "amount": 125.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "not_satisfied"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard",
+      "polite"
+    ]
+  },
+  {
+    "id": "test_036",
+    "input": {
+      "text": "Refund",
+      "order_id": "ORD064",
+      "amount": 80.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "defective"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard",
+      "short"
+    ]
+  },
+  {
+    "id": "test_037",
+    "input": {
+      "text": "I purchased this item 3 days ago and it arrived damaged. The box was crushed and the product doesn't work. I would like a full refund please.",
+      "order_id": "ORD065",
+      "amount": 175.0,
+      "purchase_date": "2025-10-23T12:42:40.836256Z",
+      "reason": "damaged_in_shipping"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved"
+    },
+    "tags": [
+      "standard",
+      "detailed"
+    ]
+  }
+]
