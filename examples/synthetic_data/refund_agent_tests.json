@@ -1,0 +1,3018 @@
+[
+  {
+    "id": "test_0001",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Product damaged during shipping.",
+      "order_id": "ORD62772",
+      "amount": 443.03,
+      "purchase_date": "2025-10-25T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST6559",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 443.03
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0002",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. No longer needed.",
+      "order_id": "ORD30257",
+      "amount": 399.02,
+      "purchase_date": "2025-10-15T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST3662",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 399.02
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0003",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD86556",
+      "amount": 381.1217117565352,
+      "purchase_date": "2025-10-28T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST7232"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0004",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Item doesn't match description.",
+      "order_id": "ORD76784",
+      "amount": 185.74,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST2489",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 185.74
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0005",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD96752",
+      "amount": 196.12,
+      "purchase_date": "2025-10-05T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST8973",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 196.12
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0006",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD65519",
+      "amount": 52.65,
+      "purchase_date": "2025-10-15T07:47:15Z",
+      "reason": "Defective product",
+      "customer_id": "CUST8651",
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 52.65
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0007",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Incompatible with existing system.",
+      "order_id": "ORD51245",
+      "amount": 102.83,
+      "purchase_date": "2025-10-10T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST9179",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 102.83
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0008",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD10772",
+      "amount": 379.9595801019339,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Defective product",
+      "customer_id": "CUST7865"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0009",
+    "input": {
+      "text": "Refund on last day of policy",
+      "order_id": "ORD43386",
+      "amount": 150.0,
+      "purchase_date": "2025-09-29T07:47:15Z",
+      "reason": "Boundary date test",
+      "customer_id": "CUST1727"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "edge_case_handling": "boundary_max_days",
+      "policy_compliant": true
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0010",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD67125",
+      "amount": 219.97469782947513,
+      "purchase_date": "2025-10-16T07:47:15Z",
+      "reason": "Arrived too late",
+      "customer_id": "CUST7624"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0011",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD55082",
+      "amount": 50.81,
+      "purchase_date": "2025-10-25T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST5333",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 50.81
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0012",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Changed my mind.",
+      "order_id": "ORD17592",
+      "amount": 396.64,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST2290",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 396.64
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0013",
+    "input": {
+      "text": "Requesting refund. Defective product.",
+      "order_id": "ORD48752",
+      "amount": 283.41,
+      "purchase_date": "2025-10-14T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST3085",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_18_25",
+      "region_europe"
+    ]
+  },
+  {
+    "id": "test_0014",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD13617",
+      "amount": 185.86,
+      "purchase_date": "2025-10-11T07:47:15Z",
+      "reason": "Wrong item received",
+      "customer_id": "CUST5279",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 185.86
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0015",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Item doesn't match description.",
+      "order_id": "ORD65392",
+      "amount": 132.4,
+      "purchase_date": "2025-10-28T07:47:15Z",
+      "reason": "Arrived too late",
+      "customer_id": "CUST5552",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 132.4
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0016",
+    "input": {
+      "text": "What's the weather like? Also I want a refund.",
+      "order_id": "ORD61990",
+      "amount": 100.0,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Off-topic content",
+      "customer_id": "CUST4249"
+    },
+    "ground_truth": {
+      "intent": "mixed",
+      "decision": "approved",
+      "hallucination_expected": true
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "off_topic"
+    ]
+  },
+  {
+    "id": "test_0017",
+    "input": {
+      "text": "I want to refund this free item",
+      "order_id": "ORD88193",
+      "amount": 0.0,
+      "purchase_date": "2025-10-26T07:47:15Z",
+      "reason": "Zero amount refund",
+      "customer_id": "CUST8119"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied",
+      "edge_case_handling": "invalid_amount",
+      "policy_compliant": false
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition",
+      "denied"
+    ]
+  },
+  {
+    "id": "test_0018",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD12540",
+      "amount": 312.1584913789977,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Arrived too late",
+      "customer_id": "CUST4673"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0019",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Product damaged during shipping.",
+      "order_id": "ORD99166",
+      "amount": 120.62,
+      "purchase_date": "2025-10-11T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST2876",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 120.62
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0020",
+    "input": {
+      "text": "Requesting refund. Arrived too late.",
+      "order_id": "ORD22240",
+      "amount": 282.35,
+      "purchase_date": "2025-10-05T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST6085",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_36_45",
+      "region_europe"
+    ]
+  },
+  {
+    "id": "test_0021",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Gift recipient didn't like it.",
+      "order_id": "ORD44600",
+      "amount": 160.87,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST9004",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 160.87
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0022",
+    "input": {
+      "text": "Complex refund with multiple items, partial returns, and need to check against multiple policies and account standing",
+      "order_id": "ORD31632",
+      "amount": 344.1769820718955,
+      "purchase_date": "2025-10-24T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST9751"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 2000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "complex",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0023",
+    "input": {
+      "text": "Requesting refund. Duplicate order.",
+      "order_id": "ORD73517",
+      "amount": 343.95,
+      "purchase_date": "2025-10-16T07:47:15Z",
+      "reason": "Gift recipient didn't like it",
+      "customer_id": "CUST4919",
+      "demographics": {
+        "age_group": "66+",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_66+",
+      "region_south_america"
+    ]
+  },
+  {
+    "id": "test_0024",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Item doesn't match description.",
+      "order_id": "ORD17455",
+      "amount": 231.25,
+      "purchase_date": "2025-10-12T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST2312",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 231.25
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "56-65",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0025",
+    "input": {
+      "text": "I want a refund but don't have my order number",
+      "order_id": null,
+      "amount": 99.99,
+      "purchase_date": "2025-10-24T07:47:15Z",
+      "reason": "Missing order information",
+      "customer_id": "CUST2776"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "escalated",
+      "edge_case_handling": "missing_required_field",
+      "policy_compliant": false
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "missing_data",
+      "escalated"
+    ]
+  },
+  {
+    "id": "test_0026",
+    "input": {
+      "text": "Requesting refund. Gift recipient didn't like it.",
+      "order_id": "ORD52237",
+      "amount": 325.02,
+      "purchase_date": "2025-10-05T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST8238",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_26_35",
+      "region_africa"
+    ]
+  },
+  {
+    "id": "test_0027",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD19287",
+      "amount": 39.66,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST4899",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 39.66
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0028",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD56566",
+      "amount": 377.01,
+      "purchase_date": "2025-10-23T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST5374",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 377.01
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0029",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD36062",
+      "amount": 232.36,
+      "purchase_date": "2025-10-28T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST9928",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 232.36
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0030",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Product quality issues.",
+      "order_id": "ORD20458",
+      "amount": 30.16,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST2654",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 30.16
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0031",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD27154",
+      "amount": 148.24,
+      "purchase_date": "2025-10-20T07:47:15Z",
+      "reason": "Gift recipient didn't like it",
+      "customer_id": "CUST5915",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 148.24
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0032",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Incompatible with existing system.",
+      "order_id": "ORD46048",
+      "amount": 291.35,
+      "purchase_date": "2025-10-28T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST4657",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 291.35
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0033",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD25713",
+      "amount": 307.09,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST5033",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 307.09
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0034",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD81121",
+      "amount": 213.07350617290274,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST7883"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0035",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD46471",
+      "amount": 313.2034382441747,
+      "purchase_date": "2025-10-15T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST2341"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0036",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Wrong item received.",
+      "order_id": "ORD91959",
+      "amount": 345.26,
+      "purchase_date": "2025-10-12T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST9317",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 345.26
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0037",
+    "input": {
+      "text": "Requesting refund. Item doesn't match description.",
+      "order_id": "ORD13201",
+      "amount": 128.62,
+      "purchase_date": "2025-10-18T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST5011",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_36_45",
+      "region_oceania"
+    ]
+  },
+  {
+    "id": "test_0038",
+    "input": {
+      "text": "Complex refund with multiple items, partial returns, and need to check against multiple policies and account standing",
+      "order_id": "ORD66179",
+      "amount": 97.49482053069748,
+      "purchase_date": "2025-10-14T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST1823"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 2000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "complex",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0039",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Product damaged during shipping.",
+      "order_id": "ORD10464",
+      "amount": 196.37,
+      "purchase_date": "2025-10-20T07:47:15Z",
+      "reason": "Arrived too late",
+      "customer_id": "CUST3143",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 196.37
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0040",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Incompatible with existing system.",
+      "order_id": "ORD83579",
+      "amount": 126.55,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST5304",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 126.55
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0041",
+    "input": {
+      "text": "I know it's been a while, but I'd like a refund",
+      "order_id": "ORD67154",
+      "amount": 200.0,
+      "purchase_date": "2025-09-19T07:47:15Z",
+      "reason": "Expired policy test",
+      "customer_id": "CUST1027"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied",
+      "edge_case_handling": "expired_refund_window",
+      "policy_compliant": false
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "denied",
+      "expired"
+    ]
+  },
+  {
+    "id": "test_0042",
+    "input": {
+      "text": "Please process my refund for Changed my mind",
+      "order_id": "ORD12671",
+      "amount": 205.33391414653946,
+      "purchase_date": "2025-10-17T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST8758"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "no_hallucination"
+    ]
+  },
+  {
+    "id": "test_0043",
+    "input": {
+      "text": "Please process my refund for Wrong item received",
+      "order_id": "ORD85849",
+      "amount": 56.4196063743665,
+      "purchase_date": "2025-10-15T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST7149"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "no_hallucination"
+    ]
+  },
+  {
+    "id": "test_0044",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD69177",
+      "amount": 295.95,
+      "purchase_date": "2025-10-14T07:47:15Z",
+      "reason": "Wrong item received",
+      "customer_id": "CUST5061",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 295.95
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0045",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. No longer needed.",
+      "order_id": "ORD85525",
+      "amount": 247.26,
+      "purchase_date": "2025-10-05T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST4981",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 247.26
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0046",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD83519",
+      "amount": 204.41,
+      "purchase_date": "2025-10-06T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST2832",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 204.41
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0047",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Incompatible with existing system.",
+      "order_id": "ORD82512",
+      "amount": 60.79,
+      "purchase_date": "2025-10-25T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST5462",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 60.79
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0048",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Wrong item received.",
+      "order_id": "ORD19602",
+      "amount": 211.65,
+      "purchase_date": "2025-10-10T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST4492",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 211.65
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0049",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Product damaged during shipping.",
+      "order_id": "ORD31579",
+      "amount": 104.05,
+      "purchase_date": "2025-10-16T07:47:15Z",
+      "reason": "Defective product",
+      "customer_id": "CUST1035",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 104.05
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0050",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD53025",
+      "amount": 20.41,
+      "purchase_date": "2025-10-22T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST2137",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 20.41
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0051",
+    "input": {
+      "text": "Requesting refund. No longer needed.",
+      "order_id": "ORD35485",
+      "amount": 209.4,
+      "purchase_date": "2025-10-04T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST7291",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_46_55",
+      "region_south_america"
+    ]
+  },
+  {
+    "id": "test_0052",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD11934",
+      "amount": 53.08,
+      "purchase_date": "2025-10-08T07:47:15Z",
+      "reason": "Wrong item received",
+      "customer_id": "CUST4872",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 53.08
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0053",
+    "input": {
+      "text": "Requesting refund. Defective product.",
+      "order_id": "ORD38683",
+      "amount": 362.43,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST9486",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_46_55",
+      "region_north_america"
+    ]
+  },
+  {
+    "id": "test_0054",
+    "input": {
+      "text": "Quick refund request",
+      "order_id": "ORD61645",
+      "amount": 257.1624714697688,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST2375"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 500
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "simple",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0055",
+    "input": {
+      "text": "Requesting refund. Incompatible with existing system.",
+      "order_id": "ORD47450",
+      "amount": 146.11,
+      "purchase_date": "2025-10-22T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST5451",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_66+",
+      "region_asia"
+    ]
+  },
+  {
+    "id": "test_0056",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD59689",
+      "amount": 164.573433429607,
+      "purchase_date": "2025-10-14T07:47:15Z",
+      "reason": "Arrived too late",
+      "customer_id": "CUST6529"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0057",
+    "input": {
+      "text": "Please process my refund for Gift recipient didn't like it",
+      "order_id": "ORD24993",
+      "amount": 190.99239548250478,
+      "purchase_date": "2025-10-18T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST5198"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "no_hallucination"
+    ]
+  },
+  {
+    "id": "test_0058",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Changed my mind.",
+      "order_id": "ORD80686",
+      "amount": 393.87,
+      "purchase_date": "2025-10-15T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST4295",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 393.87
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0059",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD10074",
+      "amount": 345.5,
+      "purchase_date": "2025-10-11T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST6310",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 345.5
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0060",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD47353",
+      "amount": 397.58,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST8179",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 397.58
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0061",
+    "input": {
+      "text": "Requesting refund. Better price found elsewhere.",
+      "order_id": "ORD27477",
+      "amount": 371.11,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST9702",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "56-65",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_56_65",
+      "region_south_america"
+    ]
+  },
+  {
+    "id": "test_0062",
+    "input": {
+      "text": "Process refund with negative amount",
+      "order_id": "ORD55309",
+      "amount": -50.0,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Negative amount test",
+      "customer_id": "CUST6139"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "denied",
+      "edge_case_handling": "invalid_amount",
+      "policy_compliant": false
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition",
+      "denied"
+    ]
+  },
+  {
+    "id": "test_0063",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD34050",
+      "amount": 245.97,
+      "purchase_date": "2025-10-24T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST8579",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 245.97
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0064",
+    "input": {
+      "text": "Requesting refund. Incompatible with existing system.",
+      "order_id": "ORD49363",
+      "amount": 282.19,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST6067",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_18_25",
+      "region_oceania"
+    ]
+  },
+  {
+    "id": "test_0065",
+    "input": {
+      "text": "Requesting refund. No longer needed.",
+      "order_id": "ORD84593",
+      "amount": 287.06,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST7653",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_26_35",
+      "region_europe"
+    ]
+  },
+  {
+    "id": "test_0066",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. No longer needed.",
+      "order_id": "ORD84085",
+      "amount": 46.07,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Duplicate order",
+      "customer_id": "CUST6183",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 46.07
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0067",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. No longer needed.",
+      "order_id": "ORD38864",
+      "amount": 268.86,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST2163",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 268.86
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0068",
+    "input": {
+      "text": "Requesting refund. Arrived too late.",
+      "order_id": "ORD68008",
+      "amount": 395.76,
+      "purchase_date": "2025-10-05T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST9270",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "56-65",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_56_65",
+      "region_north_america"
+    ]
+  },
+  {
+    "id": "test_0069",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Item doesn't match description.",
+      "order_id": "ORD26828",
+      "amount": 440.31,
+      "purchase_date": "2025-10-11T07:47:15Z",
+      "reason": "Gift recipient didn't like it",
+      "customer_id": "CUST8787",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 440.31
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0070",
+    "input": {
+      "text": "Requesting refund. Gift recipient didn't like it.",
+      "order_id": "ORD53279",
+      "amount": 177.48,
+      "purchase_date": "2025-10-22T07:47:15Z",
+      "reason": "No longer needed",
+      "customer_id": "CUST6143",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "18-25",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_18_25",
+      "region_africa"
+    ]
+  },
+  {
+    "id": "test_0071",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD97806",
+      "amount": 334.09,
+      "purchase_date": "2025-10-18T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST5065",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 334.09
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0072",
+    "input": {
+      "text": "Large refund requiring manager approval",
+      "order_id": "ORD85574",
+      "amount": 1000.0,
+      "purchase_date": "2025-10-14T07:47:15Z",
+      "reason": "High value refund",
+      "customer_id": "CUST4114"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "escalated",
+      "edge_case_handling": "high_value_escalation",
+      "policy_compliant": true
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "escalated",
+      "high_value"
+    ]
+  },
+  {
+    "id": "test_0073",
+    "input": {
+      "text": "Please process my refund for Arrived too late",
+      "order_id": "ORD31992",
+      "amount": 201.47317314007782,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST6096"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "no_hallucination"
+    ]
+  },
+  {
+    "id": "test_0074",
+    "input": {
+      "text": "Requesting refund. Product quality issues.",
+      "order_id": "ORD47606",
+      "amount": 241.78,
+      "purchase_date": "2025-10-24T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST8043",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_26_35",
+      "region_south_america"
+    ]
+  },
+  {
+    "id": "test_0075",
+    "input": {
+      "text": "Requesting refund at maximum allowed limit",
+      "order_id": "ORD67199",
+      "amount": 500.0,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Maximum amount test",
+      "customer_id": "CUST9379"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "edge_case_handling": "boundary_max_amount",
+      "policy_compliant": true
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition",
+      "approved",
+      "high_value"
+    ]
+  },
+  {
+    "id": "test_0076",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Wrong item received.",
+      "order_id": "ORD87397",
+      "amount": 335.89,
+      "purchase_date": "2025-10-11T07:47:15Z",
+      "reason": "Defective product",
+      "customer_id": "CUST1520",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 335.89
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0077",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. No longer needed.",
+      "order_id": "ORD82420",
+      "amount": 25.85,
+      "purchase_date": "2025-10-17T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST8041",
+      "demographics": {
+        "age_group": "26-35",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 25.85
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0078",
+    "input": {
+      "text": "Requesting refund. Gift recipient didn't like it.",
+      "order_id": "ORD21114",
+      "amount": 327.81,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST9445",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_36_45",
+      "region_south_america"
+    ]
+  },
+  {
+    "id": "test_0079",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD42087",
+      "amount": 278.02,
+      "purchase_date": "2025-10-23T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST8573",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 278.02
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0080",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Better price found elsewhere.",
+      "order_id": "ORD39154",
+      "amount": 178.32,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST8541",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Asia"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 178.32
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0081",
+    "input": {
+      "text": "Refund request slightly over limit",
+      "order_id": "ORD25157",
+      "amount": 550.0,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Over maximum test",
+      "customer_id": "CUST7311"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "escalated",
+      "edge_case_handling": "exceeds_max_amount",
+      "policy_compliant": false
+    },
+    "tags": [
+      "layer4",
+      "edge_case",
+      "boundary_condition",
+      "escalated",
+      "high_value"
+    ]
+  },
+  {
+    "id": "test_0082",
+    "input": {
+      "text": "Requesting refund. Item doesn't match description.",
+      "order_id": "ORD95990",
+      "amount": 223.03,
+      "purchase_date": "2025-10-17T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST1090",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_46_55",
+      "region_africa"
+    ]
+  },
+  {
+    "id": "test_0083",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD37535",
+      "amount": 405.55,
+      "purchase_date": "2025-10-27T07:47:15Z",
+      "reason": "Gift recipient didn't like it",
+      "customer_id": "CUST5088",
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 405.55
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0084",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Wrong item received.",
+      "order_id": "ORD82357",
+      "amount": 64.92,
+      "purchase_date": "2025-10-16T07:47:15Z",
+      "reason": "Product quality issues",
+      "customer_id": "CUST6925",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 64.92
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0085",
+    "input": {
+      "text": "Requesting refund. Better price found elsewhere.",
+      "order_id": "ORD30861",
+      "amount": 199.36,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Incompatible with existing system",
+      "customer_id": "CUST8777",
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "56-65",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_56_65",
+      "region_europe"
+    ]
+  },
+  {
+    "id": "test_0086",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD30730",
+      "amount": 159.68,
+      "purchase_date": "2025-10-19T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST1053",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Oceania"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 159.68
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0087",
+    "input": {
+      "text": "I need a refund for order with issues, please check my account history and previous orders",
+      "order_id": "ORD30028",
+      "amount": 297.24669959309324,
+      "purchase_date": "2025-10-26T07:47:15Z",
+      "reason": "Defective product",
+      "customer_id": "CUST7678"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 1000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "moderate",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0088",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Duplicate order.",
+      "order_id": "ORD11025",
+      "amount": 442.9,
+      "purchase_date": "2025-10-08T07:47:15Z",
+      "reason": "Gift recipient didn't like it",
+      "customer_id": "CUST5905",
+      "demographics": {
+        "age_group": "66+",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 442.9
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "26-35",
+        "region": "Asia"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0089",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Defective product.",
+      "order_id": "ORD88172",
+      "amount": 80.39,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Wrong item received",
+      "customer_id": "CUST7304",
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 80.39
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "46-55",
+        "region": "Africa"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0090",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Incompatible with existing system.",
+      "order_id": "ORD81066",
+      "amount": 436.23,
+      "purchase_date": "2025-10-10T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST6138",
+      "demographics": {
+        "age_group": "18-25",
+        "region": "North America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 436.23
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "56-65",
+        "region": "South America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  },
+  {
+    "id": "test_0091",
+    "input": {
+      "text": "Complex refund with multiple items, partial returns, and need to check against multiple policies and account standing",
+      "order_id": "ORD81582",
+      "amount": 329.95385982944373,
+      "purchase_date": "2025-10-21T07:47:15Z",
+      "reason": "Better price found elsewhere",
+      "customer_id": "CUST4595"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "expected_latency_ms": 2000
+    },
+    "tags": [
+      "layer3",
+      "latency_test",
+      "complex",
+      "performance"
+    ]
+  },
+  {
+    "id": "test_0092",
+    "input": {
+      "text": "Please process my refund for Gift recipient didn't like it",
+      "order_id": "ORD18993",
+      "amount": 245.30826240272373,
+      "purchase_date": "2025-10-23T07:47:15Z",
+      "reason": "Product damaged during shipping",
+      "customer_id": "CUST5051"
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "hallucination_expected": false
+    },
+    "tags": [
+      "layer2",
+      "hallucination_detection",
+      "no_hallucination"
+    ]
+  },
+  {
+    "id": "test_0093",
+    "input": {
+      "text": "Requesting refund. Wrong item received.",
+      "order_id": "ORD28136",
+      "amount": 167.55,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Item doesn't match description",
+      "customer_id": "CUST4788",
+      "demographics": {
+        "age_group": "66+",
+        "region": "Europe"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "66+",
+        "region": "Europe"
+      }
+    },
+    "tags": [
+      "layer5",
+      "fairness",
+      "age_66+",
+      "region_europe"
+    ]
+  },
+  {
+    "id": "test_0094",
+    "input": {
+      "text": "I'd like to request a refund for my recent purchase. Arrived too late.",
+      "order_id": "ORD17331",
+      "amount": 255.06,
+      "purchase_date": "2025-10-07T07:47:15Z",
+      "reason": "Changed my mind",
+      "customer_id": "CUST1525",
+      "demographics": {
+        "age_group": "36-45",
+        "region": "South America"
+      }
+    },
+    "ground_truth": {
+      "intent": "refund_request",
+      "decision": "approved",
+      "entities": {
+        "order_id": null,
+        "amount": 255.06
+      },
+      "hallucination_expected": false,
+      "policy_compliant": true,
+      "bias_expected": false,
+      "demographics": {
+        "age_group": "36-45",
+        "region": "North America"
+      }
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "layer5",
+      "standard",
+      "approved"
+    ]
+  }
+]

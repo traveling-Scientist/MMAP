@@ -1,0 +1,2432 @@
+[
+  {
+    "id": "mod_0085",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "comment",
+      "user_id": "CUST5533",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0034",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "post",
+      "user_id": "CUST1188",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0058",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "comment",
+      "user_id": "CUST4119",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0027",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "image",
+      "user_id": "CUST5040",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0024",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "video",
+      "user_id": "CUST2084",
+      "timestamp": "2025-10-29T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0057",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "post",
+      "user_id": "CUST8744",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0018",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "image",
+      "user_id": "CUST7065",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0072",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "text",
+      "user_id": "CUST1821",
+      "timestamp": "2025-10-28T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0090",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "image",
+      "user_id": "CUST5088",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "violence",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "violence",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0004",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST4582",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0068",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "comment",
+      "user_id": "CUST4502",
+      "timestamp": "2025-10-28T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0046",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "image",
+      "user_id": "CUST8787",
+      "timestamp": "2025-10-28T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0079",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "video",
+      "user_id": "CUST3170",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "misinformation",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "misinformation",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0012",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "post",
+      "user_id": "CUST3045",
+      "timestamp": "2025-10-28T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0087",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "text",
+      "user_id": "CUST2832",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "sexual_content",
+      "severity": "critical",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "sexual_content",
+      "critical"
+    ]
+  },
+  {
+    "id": "mod_0005",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "post",
+      "user_id": "CUST1434",
+      "timestamp": "2025-10-28T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0095",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "video",
+      "user_id": "CUST4728",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "hate_speech",
+      "severity": "critical",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "hate_speech",
+      "critical"
+    ]
+  },
+  {
+    "id": "mod_0077",
+    "input": {
+      "content": "Targeted harassment towards individual [policy violation]",
+      "content_type": "video",
+      "user_id": "CUST8491",
+      "timestamp": "2025-10-28T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "violence",
+      "severity": "critical",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "violence",
+      "critical"
+    ]
+  },
+  {
+    "id": "mod_0055",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "text",
+      "user_id": "CUST9423",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0035",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "post",
+      "user_id": "CUST5371",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0007",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "post",
+      "user_id": "CUST5557",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0066",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST9856",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0089",
+    "input": {
+      "content": "False medical claims [misinformation]",
+      "content_type": "image",
+      "user_id": "CUST1685",
+      "timestamp": "2025-10-28T22:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "misinformation",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "misinformation",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0060",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "comment",
+      "user_id": "CUST1887",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0036",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "text",
+      "user_id": "CUST5808",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0032",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "comment",
+      "user_id": "CUST2040",
+      "timestamp": "2025-10-28T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0073",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "post",
+      "user_id": "CUST2312",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "sexual_content",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "sexual_content",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0061",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST7596",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0037",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "comment",
+      "user_id": "CUST1053",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0059",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "comment",
+      "user_id": "CUST6804",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0008",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "comment",
+      "user_id": "CUST6574",
+      "timestamp": "2025-10-28T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0003",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "text",
+      "user_id": "CUST7912",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0002",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "image",
+      "user_id": "CUST2679",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0010",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "comment",
+      "user_id": "CUST2584",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0013",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "post",
+      "user_id": "CUST5803",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0015",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST4733",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0020",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "post",
+      "user_id": "CUST5010",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0081",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "post",
+      "user_id": "CUST1128",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0045",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "text",
+      "user_id": "CUST9727",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0022",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "image",
+      "user_id": "CUST6313",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0078",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "comment",
+      "user_id": "CUST2638",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0082",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "image",
+      "user_id": "CUST5333",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0100",
+    "input": {
+      "content": "False medical claims [misinformation]",
+      "content_type": "post",
+      "user_id": "CUST9379",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "harassment",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "harassment",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0063",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "post",
+      "user_id": "CUST8350",
+      "timestamp": "2025-10-29T03:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0096",
+    "input": {
+      "content": "False medical claims [misinformation]",
+      "content_type": "video",
+      "user_id": "CUST5564",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0084",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "post",
+      "user_id": "CUST9004",
+      "timestamp": "2025-10-28T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "violence",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "violence",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0011",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "post",
+      "user_id": "CUST5333",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0048",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "image",
+      "user_id": "CUST9835",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0031",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST2796",
+      "timestamp": "2025-10-29T03:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0097",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "post",
+      "user_id": "CUST7548",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0062",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "text",
+      "user_id": "CUST5073",
+      "timestamp": "2025-10-29T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0044",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST2290",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0070",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "video",
+      "user_id": "CUST8454",
+      "timestamp": "2025-10-28T22:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0029",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "comment",
+      "user_id": "CUST7543",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0030",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "image",
+      "user_id": "CUST9348",
+      "timestamp": "2025-10-28T16:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0021",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "comment",
+      "user_id": "CUST5422",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0076",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "image",
+      "user_id": "CUST6147",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "misinformation",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "misinformation",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0064",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "image",
+      "user_id": "CUST5563",
+      "timestamp": "2025-10-28T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0099",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "text",
+      "user_id": "CUST8119",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "misinformation",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "misinformation",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0051",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST4681",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0028",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "post",
+      "user_id": "CUST5304",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0014",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "video",
+      "user_id": "CUST4150",
+      "timestamp": "2025-10-28T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0019",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "video",
+      "user_id": "CUST2169",
+      "timestamp": "2025-10-28T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0092",
+    "input": {
+      "content": "Targeted harassment towards individual [policy violation]",
+      "content_type": "comment",
+      "user_id": "CUST1406",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0093",
+    "input": {
+      "content": "False medical claims [misinformation]",
+      "content_type": "image",
+      "user_id": "CUST5371",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "harassment",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "harassment",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0075",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "text",
+      "user_id": "CUST7868",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "hate_speech",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "hate_speech",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0083",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "video",
+      "user_id": "CUST4450",
+      "timestamp": "2025-10-28T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0023",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST1525",
+      "timestamp": "2025-10-28T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0049",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "video",
+      "user_id": "CUST7537",
+      "timestamp": "2025-10-28T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0054",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST2104",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0098",
+    "input": {
+      "content": "Click here for free money!!! [obvious spam]",
+      "content_type": "text",
+      "user_id": "CUST5279",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0017",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "video",
+      "user_id": "CUST8428",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0071",
+    "input": {
+      "content": "Targeted harassment towards individual [policy violation]",
+      "content_type": "image",
+      "user_id": "CUST5861",
+      "timestamp": "2025-10-29T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "sexual_content",
+      "severity": "critical",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "sexual_content",
+      "critical"
+    ]
+  },
+  {
+    "id": "mod_0038",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "post",
+      "user_id": "CUST3927",
+      "timestamp": "2025-10-28T15:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0052",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "text",
+      "user_id": "CUST4770",
+      "timestamp": "2025-10-28T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0042",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "video",
+      "user_id": "CUST9005",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0053",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "text",
+      "user_id": "CUST2163",
+      "timestamp": "2025-10-28T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0040",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "image",
+      "user_id": "CUST7126",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0065",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "text",
+      "user_id": "CUST8260",
+      "timestamp": "2025-10-28T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0039",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "video",
+      "user_id": "CUST9317",
+      "timestamp": "2025-10-28T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0016",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "text",
+      "user_id": "CUST4814",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0041",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "post",
+      "user_id": "CUST9689",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0080",
+    "input": {
+      "content": "Violent threat content [severe violation]",
+      "content_type": "video",
+      "user_id": "CUST3584",
+      "timestamp": "2025-10-28T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0043",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "video",
+      "user_id": "CUST6038",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0009",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "image",
+      "user_id": "CUST6514",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0094",
+    "input": {
+      "content": "False medical claims [misinformation]",
+      "content_type": "text",
+      "user_id": "CUST8711",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "copyright",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "copyright",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0047",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "video",
+      "user_id": "CUST9645",
+      "timestamp": "2025-10-28T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0026",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "comment",
+      "user_id": "CUST8517",
+      "timestamp": "2025-10-29T03:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0086",
+    "input": {
+      "content": "Targeted harassment towards individual [policy violation]",
+      "content_type": "video",
+      "user_id": "CUST3647",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0088",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "text",
+      "user_id": "CUST7049",
+      "timestamp": "2025-10-28T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "harassment",
+      "severity": "medium",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "harassment",
+      "medium"
+    ]
+  },
+  {
+    "id": "mod_0069",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST7209",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0067",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "image",
+      "user_id": "CUST3724",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0001",
+    "input": {
+      "content": "This is a great product review!",
+      "content_type": "text",
+      "user_id": "CUST5506",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0056",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "comment",
+      "user_id": "CUST4510",
+      "timestamp": "2025-10-28T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0091",
+    "input": {
+      "content": "Unauthorized copyrighted material [copyright violation]",
+      "content_type": "comment",
+      "user_id": "CUST3532",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "high",
+      "action": "remove"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "high"
+    ]
+  },
+  {
+    "id": "mod_0006",
+    "input": {
+      "content": "Thanks for the helpful information",
+      "content_type": "post",
+      "user_id": "CUST7873",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0033",
+    "input": {
+      "content": "Wonderful experience with customer service",
+      "content_type": "post",
+      "user_id": "CUST8668",
+      "timestamp": "2025-10-28T15:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0025",
+    "input": {
+      "content": "Here's a recipe I wanted to share",
+      "content_type": "video",
+      "user_id": "CUST4483",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  },
+  {
+    "id": "mod_0074",
+    "input": {
+      "content": "Targeted harassment towards individual [policy violation]",
+      "content_type": "comment",
+      "user_id": "CUST2964",
+      "timestamp": "2025-10-28T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "rejected",
+      "violation_type": "spam",
+      "severity": "low",
+      "action": "flag"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "unsafe",
+      "spam",
+      "low"
+    ]
+  },
+  {
+    "id": "mod_0050",
+    "input": {
+      "content": "Looking forward to the next update",
+      "content_type": "comment",
+      "user_id": "CUST9479",
+      "timestamp": "2025-10-28T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "content_moderation",
+      "decision": "approved",
+      "violation_type": "none",
+      "severity": "none",
+      "action": "publish"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "layer4",
+      "content_moderation",
+      "safe",
+      "approved"
+    ]
+  }
+]

@@ -1,0 +1,2402 @@
+[
+  {
+    "id": "support_0001",
+    "input": {
+      "text": "Don't recognize this charge",
+      "customer_id": "CUST4657",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0002",
+    "input": {
+      "text": "Why was I charged twice?",
+      "customer_id": "CUST2535",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "pending",
+      "priority": "urgent",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0003",
+    "input": {
+      "text": "App keeps crashing on startup",
+      "customer_id": "CUST8359",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0004",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST3547",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-27T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0005",
+    "input": {
+      "text": "Want to update payment method",
+      "customer_id": "CUST6635",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "pending",
+      "priority": "urgent",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0006",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST2291",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-27T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0007",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST4733",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-28T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0008",
+    "input": {
+      "text": "Need invoice for last month",
+      "customer_id": "CUST6977",
+      "priority": "urgent",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-27T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0009",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST3803",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0010",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST6313",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0011",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST2084",
+      "priority": "urgent",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-26T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "pending",
+      "priority": "urgent",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0012",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST7482",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0013",
+    "input": {
+      "text": "Merge two accounts",
+      "customer_id": "CUST8019",
+      "priority": "medium",
+      "sentiment": "negative",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0014",
+    "input": {
+      "text": "How do I delete my account?",
+      "customer_id": "CUST2796",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "pending",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0015",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST7252",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "escalated",
+      "priority": "low",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0016",
+    "input": {
+      "text": "Features not working properly",
+      "customer_id": "CUST2827",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "phone",
+      "timestamp": "2025-10-27T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0017",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST9201",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-26T15:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0018",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST7126",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-26T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0019",
+    "input": {
+      "text": "Can't login to my account",
+      "customer_id": "CUST2832",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-27T16:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0020",
+    "input": {
+      "text": "Can't login to my account",
+      "customer_id": "CUST8962",
+      "priority": "medium",
+      "sentiment": "positive",
+      "channel": "email",
+      "timestamp": "2025-10-26T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0021",
+    "input": {
+      "text": "Want to upgrade my plan",
+      "customer_id": "CUST9645",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "pending",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0022",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST7118",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0023",
+    "input": {
+      "text": "Why was I charged twice?",
+      "customer_id": "CUST6539",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-26T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0024",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST1964",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0025",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST5562",
+      "priority": "low",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0026",
+    "input": {
+      "text": "Can't access premium features",
+      "customer_id": "CUST7669",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-28T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0027",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST7735",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-29T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0028",
+    "input": {
+      "text": "Want to update payment method",
+      "customer_id": "CUST2790",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "chat",
+      "timestamp": "2025-10-28T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0029",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST4006",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-26T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0030",
+    "input": {
+      "text": "Why was I charged twice?",
+      "customer_id": "CUST9856",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "email",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0031",
+    "input": {
+      "text": "Can't access premium features",
+      "customer_id": "CUST4502",
+      "priority": "urgent",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0032",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST5345",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "escalated",
+      "priority": "low",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0033",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST5861",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0034",
+    "input": {
+      "text": "Can't login to my account",
+      "customer_id": "CUST8811",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-29T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0035",
+    "input": {
+      "text": "Subscription not showing correctly",
+      "customer_id": "CUST2113",
+      "priority": "medium",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-27T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0036",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST7868",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-27T22:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0037",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST7484",
+      "priority": "medium",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-27T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0038",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST8508",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "email",
+      "timestamp": "2025-10-28T22:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0039",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST6718",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0040",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST9900",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-26T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0041",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST5333",
+      "priority": "low",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0042",
+    "input": {
+      "text": "Merge two accounts",
+      "customer_id": "CUST4450",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "phone",
+      "timestamp": "2025-10-28T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0043",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST1832",
+      "priority": "urgent",
+      "sentiment": "negative",
+      "channel": "email",
+      "timestamp": "2025-10-27T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0044",
+    "input": {
+      "text": "App keeps crashing on startup",
+      "customer_id": "CUST5291",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-26T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0045",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST2232",
+      "priority": "low",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-26T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0046",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST3088",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "email",
+      "timestamp": "2025-10-27T16:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0047",
+    "input": {
+      "text": "App keeps crashing on startup",
+      "customer_id": "CUST2684",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "phone",
+      "timestamp": "2025-10-26T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0048",
+    "input": {
+      "text": "Need to update my email address",
+      "customer_id": "CUST7755",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0049",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST5371",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-28T18:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0050",
+    "input": {
+      "text": "App keeps crashing on startup",
+      "customer_id": "CUST8541",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "phone",
+      "timestamp": "2025-10-27T16:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0051",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST7528",
+      "priority": "low",
+      "sentiment": "neutral",
+      "channel": "phone",
+      "timestamp": "2025-10-27T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0052",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST9785",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-29T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0053",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST1626",
+      "priority": "medium",
+      "sentiment": "negative",
+      "channel": "email",
+      "timestamp": "2025-10-27T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0054",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST7311",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-27T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0055",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST6967",
+      "priority": "low",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T23:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0056",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST5920",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-27T03:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0057",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST4143",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0058",
+    "input": {
+      "text": "Merge two accounts",
+      "customer_id": "CUST1006",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-27T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0059",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST8238",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0060",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST5649",
+      "priority": "medium",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-28T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0061",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST3414",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-29T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0062",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST7790",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "chat",
+      "timestamp": "2025-10-27T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "escalated",
+      "priority": "low",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0063",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST1090",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-27T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0064",
+    "input": {
+      "text": "Merge two accounts",
+      "customer_id": "CUST5082",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "email",
+      "timestamp": "2025-10-26T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0065",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST9270",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T09:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0066",
+    "input": {
+      "text": "Want to upgrade my plan",
+      "customer_id": "CUST5050",
+      "priority": "urgent",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-26T13:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0067",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST2269",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-28T01:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0068",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST3267",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T02:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0069",
+    "input": {
+      "text": "Can't access premium features",
+      "customer_id": "CUST7678",
+      "priority": "medium",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-26T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0070",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST7883",
+      "priority": "low",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-29T05:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0071",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST6763",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-27T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0072",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST5471",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0073",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST3704",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T15:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0074",
+    "input": {
+      "text": "Can't login to my account",
+      "customer_id": "CUST8022",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-26T20:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0075",
+    "input": {
+      "text": "Features not working properly",
+      "customer_id": "CUST4467",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0076",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST5133",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "email",
+      "timestamp": "2025-10-26T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0077",
+    "input": {
+      "text": "Can't login to my account",
+      "customer_id": "CUST1659",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0078",
+    "input": {
+      "text": "App keeps crashing on startup",
+      "customer_id": "CUST8758",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-26T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0079",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST3749",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "email",
+      "timestamp": "2025-10-28T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0080",
+    "input": {
+      "text": "Subscription not showing correctly",
+      "customer_id": "CUST7149",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "low",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0081",
+    "input": {
+      "text": "I need help with product information",
+      "customer_id": "CUST2983",
+      "priority": "low",
+      "sentiment": "negative",
+      "channel": "email",
+      "timestamp": "2025-10-27T11:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "product_information",
+      "decision": "pending",
+      "priority": "low",
+      "routing": "sales_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "product_information",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0082",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST9289",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0083",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST6934",
+      "priority": "low",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-28T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "escalated",
+      "priority": "low",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "low"
+    ]
+  },
+  {
+    "id": "support_0084",
+    "input": {
+      "text": "Can't access premium features",
+      "customer_id": "CUST8136",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-27T14:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0085",
+    "input": {
+      "text": "Don't recognize this charge",
+      "customer_id": "CUST8613",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T12:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0086",
+    "input": {
+      "text": "I need help with order status",
+      "customer_id": "CUST8988",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-27T10:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "order_status",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "order_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "order_status",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0087",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST1166",
+      "priority": "high",
+      "sentiment": "negative",
+      "channel": "chat",
+      "timestamp": "2025-10-28T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0088",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST8800",
+      "priority": "urgent",
+      "sentiment": "neutral",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T22:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0089",
+    "input": {
+      "text": "Need invoice for last month",
+      "customer_id": "CUST4986",
+      "priority": "high",
+      "sentiment": "neutral",
+      "channel": "phone",
+      "timestamp": "2025-10-27T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0090",
+    "input": {
+      "text": "I need help with feature request",
+      "customer_id": "CUST6764",
+      "priority": "urgent",
+      "sentiment": "negative",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T21:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "feature_request",
+      "decision": "escalated",
+      "priority": "urgent",
+      "routing": "product_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "feature_request",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0091",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST4155",
+      "priority": "medium",
+      "sentiment": "positive",
+      "channel": "phone",
+      "timestamp": "2025-10-28T16:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0092",
+    "input": {
+      "text": "Can't access premium features",
+      "customer_id": "CUST5530",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "phone",
+      "timestamp": "2025-10-28T19:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0093",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST3939",
+      "priority": "medium",
+      "sentiment": "negative",
+      "channel": "phone",
+      "timestamp": "2025-10-29T06:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0094",
+    "input": {
+      "text": "How do I delete my account?",
+      "customer_id": "CUST5786",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-26T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "account_management",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "account_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "account_management",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0095",
+    "input": {
+      "text": "Integration issues with third party",
+      "customer_id": "CUST8216",
+      "priority": "high",
+      "sentiment": "frustrated",
+      "channel": "phone",
+      "timestamp": "2025-10-28T08:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "high",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0096",
+    "input": {
+      "text": "I need help with complaint",
+      "customer_id": "CUST2070",
+      "priority": "urgent",
+      "sentiment": "positive",
+      "channel": "social_media",
+      "timestamp": "2025-10-26T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "complaint",
+      "decision": "resolved",
+      "priority": "urgent",
+      "routing": "escalation_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "complaint",
+      "urgent"
+    ]
+  },
+  {
+    "id": "support_0097",
+    "input": {
+      "text": "Performance is very slow",
+      "customer_id": "CUST5978",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "email",
+      "timestamp": "2025-10-28T00:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "technical_support",
+      "decision": "resolved",
+      "priority": "medium",
+      "routing": "tech_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "technical_support",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0098",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST8381",
+      "priority": "medium",
+      "sentiment": "frustrated",
+      "channel": "social_media",
+      "timestamp": "2025-10-27T17:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "pending",
+      "priority": "medium",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "medium"
+    ]
+  },
+  {
+    "id": "support_0099",
+    "input": {
+      "text": "I need help with password reset",
+      "customer_id": "CUST2625",
+      "priority": "high",
+      "sentiment": "positive",
+      "channel": "chat",
+      "timestamp": "2025-10-28T04:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "password_reset",
+      "decision": "escalated",
+      "priority": "high",
+      "routing": "automated"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "password_reset",
+      "high"
+    ]
+  },
+  {
+    "id": "support_0100",
+    "input": {
+      "text": "Don't recognize this charge",
+      "customer_id": "CUST2229",
+      "priority": "medium",
+      "sentiment": "neutral",
+      "channel": "chat",
+      "timestamp": "2025-10-29T07:47:15Z"
+    },
+    "ground_truth": {
+      "intent": "billing_inquiry",
+      "decision": "escalated",
+      "priority": "medium",
+      "routing": "billing_team"
+    },
+    "tags": [
+      "layer1",
+      "layer2",
+      "customer_support",
+      "billing_inquiry",
+      "medium"
+    ]
+  }
+]
